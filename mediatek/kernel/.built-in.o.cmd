@@ -1,0 +1,1 @@
+cmd_mediatek/kernel/built-in.o :=  ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ld.bfd -EL    -r -o mediatek/kernel/built-in.o mediatek/kernel/drivers/built-in.o mediatek/kernel/kernel/built-in.o 

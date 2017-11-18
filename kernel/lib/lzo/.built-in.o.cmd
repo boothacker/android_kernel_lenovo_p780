@@ -1,0 +1,1 @@
+cmd_lib/lzo/built-in.o :=  ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ld.bfd -EL    -r -o lib/lzo/built-in.o lib/lzo/lzo_compress.o lib/lzo/lzo_decompress.o 

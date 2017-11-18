@@ -1,0 +1,1 @@
+cmd_mediatek/kernel/drivers/emd_ctl/built-in.o :=  rm -f mediatek/kernel/drivers/emd_ctl/built-in.o; ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ar rcsD mediatek/kernel/drivers/emd_ctl/built-in.o

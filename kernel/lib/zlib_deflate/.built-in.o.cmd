@@ -1,0 +1,1 @@
+cmd_lib/zlib_deflate/built-in.o :=  ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ld.bfd -EL    -r -o lib/zlib_deflate/built-in.o lib/zlib_deflate/zlib_deflate.o 

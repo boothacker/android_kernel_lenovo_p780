@@ -1,0 +1,1 @@
+cmd_fs/notify/dnotify/built-in.o :=  ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ld.bfd -EL    -r -o fs/notify/dnotify/built-in.o fs/notify/dnotify/dnotify.o 

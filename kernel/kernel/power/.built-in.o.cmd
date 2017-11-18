@@ -1,0 +1,1 @@
+cmd_kernel/power/built-in.o :=  ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ld.bfd -EL    -r -o kernel/power/built-in.o kernel/power/qos.o kernel/power/main.o kernel/power/process.o kernel/power/suspend.o kernel/power/earlysuspend.o kernel/power/autosleep.o kernel/power/fbearlysuspend.o kernel/power/wakelock.o 

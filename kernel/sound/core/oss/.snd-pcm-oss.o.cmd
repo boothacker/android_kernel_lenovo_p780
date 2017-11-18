@@ -1,0 +1,1 @@
+cmd_sound/core/oss/snd-pcm-oss.o := ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ld.bfd -EL    -r -o sound/core/oss/snd-pcm-oss.o sound/core/oss/pcm_oss.o 

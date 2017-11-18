@@ -5,7 +5,7 @@ set -e
 #Export CROSS_COMPILE to point toolchain
 export CROSS_COMPILE="ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-"
 export TARGET_BUILD_VARIANT=user
-export TARGET_PRODUCT=prada
+export TARGET_PRODUCT=prada_row #prada
 export MTK_ROOT_CUSTOM=../mediatek/custom/
 export ARCH=arm
 

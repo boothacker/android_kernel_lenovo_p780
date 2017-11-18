@@ -1191,7 +1191,7 @@ OPTR_SPEC_SEG_DEF = OP02_SPEC0200_SEGA
 PLATFORM_MTK_SDK_VERSION = 1
 
 # use to differentiate the project UI which use the some density resource . Just like the QHD resolution and WQVA resolution , they all use the hdpi resources, if you want to support this two projects ,  you do not need two code base ,you can use  RESOURCE_OVERLAY_SUPPORT   =  hdpi to differentiate the QHD and WQVA in one code base. It could overlay the resources in build stage.
-RESOURCE_OVERLAY_SUPPORT = generic qHD
+RESOURCE_OVERLAY_SUPPORT = generic qHD sd_in_ex_otg
 
 # This is used to select the ARM architecture when building Android. For example, if armv6 is set, build/core/combo/arch/arm/armv6.mk will be used for building Android. Then ARMv6 related configurations will be set properly in the CFLAGS.
 TARGET_ARCH_VARIANT = armv7-a-neon

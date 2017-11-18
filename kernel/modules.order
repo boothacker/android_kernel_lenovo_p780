@@ -1,0 +1,14 @@
+kernel/mediatek/kernel/drivers/dual_ccci/ccci.ko
+kernel/mediatek/kernel/drivers/fmradio/mtk_fm_drv.ko
+kernel/mediatek/kernel/drivers/combo/common/mtk_stp_wmt.ko
+kernel/mediatek/kernel/drivers/combo/common/mtk_stp_uart.ko
+kernel/mediatek/kernel/drivers/combo/common/mtk_hif_sdio.ko
+kernel/mediatek/kernel/drivers/combo/common/mtk_stp_bt.ko
+kernel/mediatek/kernel/drivers/combo/common/mtk_stp_gps.ko
+kernel/mediatek/kernel/drivers/combo/common/mtk_wmt_wifi.ko
+kernel/mediatek/kernel/drivers/combo/drv_wlan/mt6628/wlan/wlan_mt6628.ko
+kernel/mediatek/platform/mt6589/kernel/drivers/gpu/pvr/pvrsrvkm.ko
+kernel/mediatek/platform/mt6589/kernel/drivers/gpu/pvr/mtklfb.ko
+kernel/mediatek/platform/mt6589/kernel/drivers/dual_ccci/ccci_plat.ko
+kernel/mediatek/platform/mt6589/kernel/drivers/devinfo/devinfo.ko
+kernel/mediatek/platform/mt6589/kernel/drivers/devapc/devapc.ko

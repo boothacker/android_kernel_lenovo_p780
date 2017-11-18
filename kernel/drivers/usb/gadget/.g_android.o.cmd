@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/g_android.o := ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ld.bfd -EL    -r -o drivers/usb/gadget/g_android.o drivers/usb/gadget/android.o 

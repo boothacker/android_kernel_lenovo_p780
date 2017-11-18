@@ -1,0 +1,1 @@
+cmd_fs/nls/built-in.o :=  ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ld.bfd -EL    -r -o fs/nls/built-in.o fs/nls/nls_base.o fs/nls/nls_cp437.o fs/nls/nls_cp855.o fs/nls/nls_cp866.o fs/nls/nls_cp950.o fs/nls/nls_cp1250.o fs/nls/nls_cp1251.o fs/nls/nls_ascii.o fs/nls/nls_iso8859-1.o fs/nls/nls_utf8.o 

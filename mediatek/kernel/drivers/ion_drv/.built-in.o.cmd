@@ -1,0 +1,1 @@
+cmd_mediatek/kernel/drivers/ion_drv/built-in.o :=  ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ld.bfd -EL    -r -o mediatek/kernel/drivers/ion_drv/built-in.o mediatek/kernel/drivers/ion_drv/ion_drv.o mediatek/kernel/drivers/ion_drv/ion_mm_heap.o mediatek/kernel/drivers/ion_drv/ion_sys_contig_heap.o 

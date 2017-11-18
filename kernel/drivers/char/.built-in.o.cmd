@@ -1,0 +1,1 @@
+cmd_drivers/char/built-in.o :=  ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ld.bfd -EL    -r -o drivers/char/built-in.o drivers/char/mem.o drivers/char/random.o drivers/char/frandom.o drivers/char/misc.o 

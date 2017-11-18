@@ -1,0 +1,1 @@
+cmd_drivers/usb/storage/ums-freecom.o := ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ld.bfd -EL    -r -o drivers/usb/storage/ums-freecom.o drivers/usb/storage/freecom.o 

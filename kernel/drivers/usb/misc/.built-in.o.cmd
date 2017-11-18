@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/built-in.o :=  ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ld.bfd -EL    -r -o drivers/usb/misc/built-in.o drivers/usb/misc/trancevibrator.o 

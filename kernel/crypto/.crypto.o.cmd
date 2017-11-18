@@ -1,0 +1,1 @@
+cmd_crypto/crypto.o := ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ld.bfd -EL    -r -o crypto/crypto.o crypto/api.o crypto/cipher.o crypto/compress.o 

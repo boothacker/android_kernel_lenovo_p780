@@ -1,0 +1,1 @@
+cmd_sound/isa/ad1848/built-in.o :=  rm -f sound/isa/ad1848/built-in.o; ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ar rcsD sound/isa/ad1848/built-in.o

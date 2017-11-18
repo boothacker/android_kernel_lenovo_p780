@@ -1,0 +1,1 @@
+cmd_mediatek/kernel/drivers/hdmitx/built-in.o :=  ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ld.bfd -EL    -r -o mediatek/kernel/drivers/hdmitx/built-in.o mediatek/kernel/drivers/hdmitx/hdmitx.o mediatek/kernel/drivers/hdmitx/debug.o mediatek/kernel/drivers/hdmitx/wfd.o mediatek/kernel/drivers/hdmitx/hdmitx_test.o 

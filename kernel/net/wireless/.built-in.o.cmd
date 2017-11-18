@@ -1,0 +1,1 @@
+cmd_net/wireless/built-in.o :=  ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ld.bfd -EL    -r -o net/wireless/built-in.o net/wireless/cfg80211.o net/wireless/lib80211.o net/wireless/wext-core.o net/wireless/wext-proc.o net/wireless/wext-priv.o 

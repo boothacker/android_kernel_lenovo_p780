@@ -1,0 +1,1 @@
+cmd_block/partitions/built-in.o :=  ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ld.bfd -EL    -r -o block/partitions/built-in.o block/partitions/check.o block/partitions/msdos.o 

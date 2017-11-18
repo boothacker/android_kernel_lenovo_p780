@@ -1,0 +1,1 @@
+cmd_mediatek/platform/mt6589/kernel/drivers/gpu/built-in.o :=  rm -f mediatek/platform/mt6589/kernel/drivers/gpu/built-in.o; ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ar rcsD mediatek/platform/mt6589/kernel/drivers/gpu/built-in.o

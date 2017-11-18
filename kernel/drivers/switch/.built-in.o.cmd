@@ -1,0 +1,1 @@
+cmd_drivers/switch/built-in.o :=  ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ld.bfd -EL    -r -o drivers/switch/built-in.o drivers/switch/switch_class.o 

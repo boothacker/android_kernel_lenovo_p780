@@ -1,0 +1,1 @@
+cmd_drivers/misc/carma/built-in.o :=  rm -f drivers/misc/carma/built-in.o; ccache /home/johndow171/android/kernel/toolchain/arm-linux-androideabi-4.7/bin/arm-linux-androideabi-ar rcsD drivers/misc/carma/built-in.o
