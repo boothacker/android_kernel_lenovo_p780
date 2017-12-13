@@ -56,7 +56,7 @@ CUSTOM_HAL_LENS = fm50af dw9718af dummy_lens
 CUSTOM_HAL_MAIN2_IMGSENSOR = 
 
 # User space image sensor  driver: Main camera  (rear camera) used backup sensor related tuning, setting and calibration information. Value is used main backup sensor name.
-CUSTOM_HAL_MAIN_BACKUP_IMGSENSOR = 
+# CUSTOM_HAL_MAIN_BACKUP_IMGSENSOR = 
 
 # lens driver config for main camera (2nd solution)
 CUSTOM_HAL_MAIN_BACKUP_LENS = dw9718af
@@ -80,10 +80,10 @@ CUSTOM_HAL_SENSORS = sensor
 CUSTOM_HAL_SUB_BACKUP_IMGSENSOR = 
 
 # lens driver config for video telephony camera (2nd solution)
-CUSTOM_HAL_SUB_BACKUP_LENS = 
+CUSTOM_HAL_SUB_BACKUP_LENS = dummy_lens 
 
 # User space driver: Sub camera (front camera )used sensor related tuning, setting and calibration information. Value is used sub sensor name.
-CUSTOM_HAL_SUB_IMGSENSOR = 
+CUSTOM_HAL_SUB_IMGSENSOR = mt9v113_mipi_yuv
 
 # lens driver config for video telephony camera
 CUSTOM_HAL_SUB_LENS = dummy_lens
@@ -134,7 +134,7 @@ CUSTOM_KERNEL_MAIN2_BACKUP_IMGSENSOR =
 CUSTOM_KERNEL_MAIN2_IMGSENSOR = 
 
 # Kernel space image sensor  driver:Main camera (rear camera) used backup sensor driver.Value is used main backup sensor name.
-CUSTOM_KERNEL_MAIN_BACKUP_IMGSENSOR = 
+CUSTOM_KERNEL_MAIN_BACKUP_IMGSENSOR = ov8865_mipi_raw
 
 # lens driver config for main camera (2nd solution)
 CUSTOM_KERNEL_MAIN_BACKUP_LENS = dw9718af
@@ -156,10 +156,10 @@ CUSTOM_KERNEL_SSW = ssw_generic
 CUSTOM_KERNEL_SUB_BACKUP_IMGSENSOR = 
 
 # lens driver config for video telephony camera (2nd solution)
-CUSTOM_KERNEL_SUB_BACKUP_LENS = 
+CUSTOM_KERNEL_SUB_BACKUP_LENS = dummy_lens
 
 # Kernel space image sensor driver:Sub camera (front camera) used sensor driver.Value is used sub sensor name.
-CUSTOM_KERNEL_SUB_IMGSENSOR = 
+CUSTOM_KERNEL_SUB_IMGSENSOR = mt9v113_mipi_yuv
 
 # lens driver config for video telephony camera
 CUSTOM_KERNEL_SUB_LENS = dummy_lens
