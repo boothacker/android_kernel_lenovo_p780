@@ -8,7 +8,6 @@
 #define __SENSOR_H
 
 #define ZSD15FPS
-//#define VIDEO_PREVIEW_SYNC  //open this define need re-do Tuning,Don't open it by yourself
 
 typedef enum group_enum {
     PRE_GAIN=0,
@@ -88,13 +87,9 @@ typedef struct
 	#define OV8825_IMAGE_SENSOR_PV_WIDTH					(1632-32)
 	#define OV8825_IMAGE_SENSOR_PV_HEIGHT					(1224-24)
 
-#ifdef VIDEO_PREVIEW_SYNC	
-	#define OV8825_IMAGE_SENSOR_VIDEO_WIDTH					OV8825_IMAGE_SENSOR_PV_WIDTH
-	#define OV8825_IMAGE_SENSOR_VIDEO_HEIGHT				OV8825_IMAGE_SENSOR_PV_HEIGHT
-#else
 	#define OV8825_IMAGE_SENSOR_VIDEO_WIDTH					(2160-40)
 	#define OV8825_IMAGE_SENSOR_VIDEO_HEIGHT				(1620-30)
-#endif
+	
 
 	/* SENSOR SCALER FACTOR */
 	#define OV8825_PV_SCALER_FACTOR					    	3
@@ -103,12 +98,18 @@ typedef struct
 	/* SENSOR START/EDE POSITION */         	
 	#define OV8825_FULL_X_START						    		(2)
 	#define OV8825_FULL_Y_START						    		(2)
+	#define OV8825_FULL_X_END						        	(3264+200)     
+	#define OV8825_FULL_Y_END						        	(2448) 
 	#define OV8825_PV_X_START						    		(2)
 	#define OV8825_PV_Y_START						    		(2)
+	#define OV8825_PV_X_END						    			(1632) 
+	#define OV8825_PV_Y_END						    			(1224) 
+	
 	#define OV8825_VIDEO_X_START								(2)
 	#define OV8825_VIDEO_Y_START								(2)
+	#define OV8825_VIDEO_X_END 									(2160) 
+	#define OV8825_VIDEO_Y_END 									(1620) 
 
-	
 	#define OV8825_MAX_ANALOG_GAIN					(16)
 	#define OV8825_MIN_ANALOG_GAIN					(1)
 	#define OV8825_ANALOG_GAIN_1X						(0x0020)
@@ -129,13 +130,9 @@ typedef struct
 	#define OV8825_PV_PERIOD_PIXEL_NUMS					0x0DBC  //3516
 	#define OV8825_PV_PERIOD_LINE_NUMS					0x51E	//1310
 
-#ifdef VIDEO_PREVIEW_SYNC	
-	#define OV8825_VIDEO_PERIOD_PIXEL_NUMS				OV8825_PV_PERIOD_PIXEL_NUMS
-	#define OV8825_VIDEO_PERIOD_LINE_NUMS				OV8825_PV_PERIOD_LINE_NUMS
-#else
-    #define OV8825_VIDEO_PERIOD_PIXEL_NUMS				0x0F30	//3888
-    #define OV8825_VIDEO_PERIOD_LINE_NUMS 			0x0740	//1856
-#endif
+	#define OV8825_VIDEO_PERIOD_PIXEL_NUMS 				0x0F30	//3888
+	#define OV8825_VIDEO_PERIOD_LINE_NUMS				0x0740	//1856
+	
 
 	#define OV8825_MIN_LINE_LENGTH						0x0AA4  //2724
 	#define OV8825_MIN_FRAME_LENGTH						0x0214  //532
